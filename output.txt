@@ -1,0 +1,10 @@
+[2m2023-04-19T10:19:53.469778Z[0m [32m INFO[0m 📦 starting build
+[2m2023-04-19T10:19:53.470734Z[0m [32m INFO[0m spawning asset pipelines
+[2m2023-04-19T10:19:53.640573Z[0m [32m INFO[0m building sinln-desk
+[2m2023-04-19T10:19:54.341082Z[0m [31mERROR[0m ❌ error
+error from HTML pipeline
+
+Caused by:
+    0: error from asset pipeline
+    1: error during cargo build execution
+    2: cargo call returned a bad status

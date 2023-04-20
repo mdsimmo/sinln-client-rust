@@ -1,0 +1,16 @@
+[package]
+name = "sinln-desk"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gloo-timers = { version = "0.2.6", features = ["futures"] }
+app-core = { path = "../sinln-api/app-core" }
+leptos = "0.2.5"
+leptos_router = {version = "0.2.5", features = ["csr"] }
+rand = { version = "0.8.5" }
+getrandom = { version = "0.2.9", features = ["js"] }
+reqwest = {version = "0.11.16", features = ["json"] }
+serde = "1.0.160"
